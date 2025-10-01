@@ -1,19 +1,27 @@
 body{
-  background-color: #2ea9ea;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20250205/pngtree-soft-pastel-floral-design-light-blue-background-image_16896113.jpg");
+  background-color: #c78e8e; /* Optional: A fallback color if the image doesn't load */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: cover;
 }
 header {
-  background-color: #1279f0;
-  border-top: 10px solid #28c2f7;
-  border-left: 10px solid #28c2f7;
-  border-right: 10px solid #28c2f7;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20250205/pngtree-soft-pastel-floral-design-light-blue-background-image_16896113.jpg");
+  background-color: #c78e8e; /* Optional: A fallback color if the image doesn't load */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: cover;
+  border-top: 10px solid #040505;
+  border-left: 10px solid #040505;
+  border-right: 10px solid #040505;
   text-align: center;
   padding-top: 50px;
   border-radius: 8px;
   
 }
 .one-line {
-  border-bottom: 10px solid #28c2f7;
-  border-radius: 8px;
+  padding-bottom:30px;
+  border-bottom: 10px solid #040505;
 }
 
 .section-style {
@@ -77,8 +85,8 @@ nav ul li a:hover {
 
 
 .dark-theme {
-  background-color: #34495c;
-  color: #3e3b40;
+  background-color: #2b5f8f;
+  color: #524c57;
 }
 
 .dark-theme header {
@@ -86,5 +94,5 @@ nav ul li a:hover {
 }
 
 .dark-theme nav {
-  background-color: #35566e;
+  background-color: #6e2f75;
 }
